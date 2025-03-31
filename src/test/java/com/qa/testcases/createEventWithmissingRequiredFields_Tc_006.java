@@ -14,9 +14,6 @@ public class createEventWithmissingRequiredFields_Tc_006 extends BaseClass {
 	public static String otp3 = "3";
 	public static String opt4 = "4";
 	
-	
-	
-	
 	@Test
 	public void eventWithMissingFields() throws InterruptedException {
 		
