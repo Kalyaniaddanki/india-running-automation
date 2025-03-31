@@ -35,7 +35,7 @@ WebDriver driver;
 		js.executeScript("arguments[0].click();", running);
 		WebElement input = driver.findElement(searchBox);
 		input.click();
-		input.sendKeys("Mumbai Marthon", Keys.ENTER);
+		input.sendKeys("Mumbai Monsoon Marathon 2025", Keys.ENTER);
 	}
 	
 	public void validateTheEventIsPresent() {
