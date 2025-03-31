@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-31T11:53:02 IST" name="Suite" finished-at="2025-03-31T11:53:10 IST" duration-ms="8287">
+    <groups>
+    </groups>
+    <test started-at="2025-03-31T11:53:02 IST" name="Firefox Test" finished-at="2025-03-31T11:53:10 IST" duration-ms="8287">
+      <class name="com.qa.testcases.LoginWithInvalidEmail_Tc_004">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.qa.testcases.LoginWithInvalidEmail_Tc_004@74235045]" started-at="2025-03-31T11:53:01 IST" name="setupReport" finished-at="2025-03-31T11:53:02 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginWithInvalidEmail_Tc_004@74235045]" started-at="2025-03-31T11:53:02 IST" name="launchBrowser" finished-at="2025-03-31T11:53:08 IST" duration-ms="6087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qa.testcases.LoginWithInvalidEmail_Tc_004.loginWithInvalidEmail() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginWithInvalidEmail()[pri:0, instance:com.qa.testcases.LoginWithInvalidEmail_Tc_004@74235045]" started-at="2025-03-31T11:53:08 IST" name="loginWithInvalidEmail" finished-at="2025-03-31T11:53:08 IST" duration-ms="801" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Warning message is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Warning message is not displayed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.qa.pages.SignInPage.validateuserShouldNotEnterOtp(SignInPage.java:59)
+at com.qa.testcases.LoginWithInvalidEmail_Tc_004.loginWithInvalidEmail(LoginWithInvalidEmail_Tc_004.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginWithInvalidEmail_Tc_004@74235045]" started-at="2025-03-31T11:53:08 IST" name="tearDown" finished-at="2025-03-31T11:53:10 IST" duration-ms="1355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInvalidEmail status=FAILURE method=LoginWithInvalidEmail_Tc_004.loginWithInvalidEmail()[pri:0, instance:com.qa.testcases.LoginWithInvalidEmail_Tc_004@74235045] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.qa.testcases.LoginWithInvalidEmail_Tc_004@74235045]" started-at="2025-03-31T11:53:10 IST" name="tearDownReport" finished-at="2025-03-31T11:53:10 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- com.qa.testcases.LoginWithInvalidEmail_Tc_004 -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>
