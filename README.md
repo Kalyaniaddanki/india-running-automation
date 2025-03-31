@@ -26,6 +26,8 @@ Depedencies Used : 1. selenium Java
                    2. Testng
                    3. extent reports for report generation.
 
+Parllel Execution : executed test cases on Firefox and Chrome Browser
+
  
 
  
