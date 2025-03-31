@@ -1,4 +1,4 @@
-I have automated the test cases using Selenium with Java, TestNG and followed Page Object Model
+Automated the test cases using Selenium with Java, TestNG and followed Page Object Model
 Tech Stack : Programming Language : Java 
             Automation Framework : Selenium WebDriver
             Test Runner : TestNG
